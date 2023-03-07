@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="otus-hadoop-homework,otus_hw3_2376" />
+    <profile name="sbt 1" modules="otus-hadoop-homework,otus-homework,otus_hw3_2376" />
   </component>
 </project>

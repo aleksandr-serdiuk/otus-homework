@@ -32,9 +32,15 @@ class TestSharedSparkSession extends SharedSparkSession {
         Row("Unknown",6644,0.0,2.34,42.8) ::
         Row("Brooklyn",3037,0.0,3.28,27.37) ::
         Row("Bronx",211,0.0,2.99,20.09) ::
-        Row("EWR",19,0.0,3.46,17.3) ::
-        Row("Staten Island",4,0.0,0.2,0.5) :: Nil
+        Row("EWR", 19, 0.0, 3.46, 17.3) ::
+        Row("Staten Island", 4, 0.0, 0.2, 0.5) :: Nil
     )
+
+    checkAnswer(
+      actualDistribution,
+      Row(7)  :: Nil
+    )
+
 
   }
 

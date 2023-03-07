@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otus-hadoop-homework.iml" filepath="$PROJECT_DIR$/.idea/modules/otus-hadoop-homework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otus-hadoop-homework-build.iml" filepath="$PROJECT_DIR$/.idea/modules/otus-hadoop-homework-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otus-homework.iml" filepath="$PROJECT_DIR$/.idea/modules/otus-homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otus-homework-build.iml" filepath="$PROJECT_DIR$/.idea/modules/otus-homework-build.iml" />
     </modules>
   </component>
 </project>

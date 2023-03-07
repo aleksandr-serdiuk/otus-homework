@@ -1,3 +1,5 @@
+package homework3
+
 import org.apache.spark.sql.functions.{broadcast, col, count, desc_nulls_first, max, mean, min, round}
 import org.apache.spark.sql.{DataFrame, Dataset, Row, SaveMode, SparkSession}
 

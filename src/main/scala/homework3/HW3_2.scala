@@ -1,3 +1,5 @@
+package homework3
+
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
 import java.io._
@@ -47,6 +49,8 @@ object HW3_2 extends App {
   val mappedTaxiFactRDD: RDD[(Int, Int)] =
     taxiFactsRDD
       .map(x => (x.tpep_pickup_datetime.substring(11,13).toInt, 1))
+
+  mappedTaxiFactRDD
 
   val cntRDD =
     mappedTaxiFactRDD
